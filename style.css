@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+ background-image: url("medical.jpg");
+ background-color: #cccccc;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container{
+    max-width: 1300px;
+}
+header{
+    width: auto;
+    overflow: auto;
+    margin-top: 3%;
+}
+.logo{
+    float: left;
+}
+.logo h2{
+    color: #fff;
+    margin-left: 25px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    width: auto;
+    overflow: auto;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none; 
+    padding: 5px 18px;
+}
+nav ul li:hover{
+    border: 1px solid #fff;
+}
+nav ul .active{
+    border: 1px solid #fff;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+h1 {
+    position: fixed;
+    top: 40%;
+    left: 23%;
+}
+
+.text {
+    margin-top: 17%;
+}
+
+
+.text h1{
+    color: #000;
+text-align:center;
+font-size: 28px;
+font-family: monospace;
+}
+
+.buttons {
+margin-left: 40%;
+margin-top: 20px;
+
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #fff;
+    margin-right: 5px;
+    
+}
+button a{
+    text-decoration: none;
+    font-size: t6px;
+    color: #000;
+}
+.btn-1{
+    background: #0984e3;
+    border: 1px solid #984e39;
+    color: #fff;
+    }
+.btn-1 a{
+        color: #fff;
+    }
+.btn-2:hover{
+        background-color: #0984e3;
+        border: 1px solid  #0984e3;
+        transition: all 0.0.3s ease-in;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
